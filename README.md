@@ -98,9 +98,9 @@ The full form of an ARM is an advanced reduced instruction set computer (RISC) m
 
 ## Output  :
 ## LED ON IMAGE
-![WhatsApp Image 2024-02-23 at 9 21 17 AM](https://github.com/deepika3095/EXPERIMENT--02-INTERFACEING-A-DIGITAL-INPUT-TO-IOT-DEVELOPMENT-BOARD-/assets/151625159/902d26d0-d205-4e32-ad7c-c3189e7380b2)
-## LED OFF IMAGE
 ![WhatsApp Image 2024-02-21 at 9 54 31 AM](https://github.com/deepika3095/EXPERIMENT--02-INTERFACEING-A-DIGITAL-INPUT-TO-IOT-DEVELOPMENT-BOARD-/assets/151625159/bfc734bc-a0fa-4e85-93d9-269a3b1cd87c)
+## LED OFF IMAGE
+![WhatsApp Image 2024-02-23 at 9 21 17 AM](https://github.com/deepika3095/EXPERIMENT--02-INTERFACEING-A-DIGITAL-INPUT-TO-IOT-DEVELOPMENT-BOARD-/assets/151625159/902d26d0-d205-4e32-ad7c-c3189e7380b2)
 
  
  
