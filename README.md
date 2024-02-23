@@ -1,10 +1,3 @@
-###  DATE: 
-
-###  NAME: 
-###  ROLL NO :
-###  DEPARTMENT: 
-
-
 # EXPERIMENT--02-INTERFACING-A-DIGITAL-INPUT-TO-IOT-DEVELOPMENT-BOARD-
  
 
@@ -77,12 +70,33 @@ The full form of an ARM is an advanced reduced instruction set computer (RISC) m
 
 
 ## STM 32 CUBE PROGRAM :
-
+#include"stdio.h"
+#include"stdbool.h"
+bool IRSENSOR;
+void irpair();
+void irpair()
+IRSENSOR = HAL_GPIO_ReadPin(GPIOA,GPIO_PIN_4);
+if(IRSENSOR==0)
+{
+HAL_GPIO_ReadPin(GPIOA,GPIO_PIN_0,RESET);
+HAL_Delay(1000);
+HAL_GPIO_ReadPin(GPIOA,GPIO_PIN_0,SET);
+HAL_Delay(1000);
+}
+else
+{
+HAL_GPIO_ReadPin(GPIOA,GPIO_PIN_0,RESET);
+HAL_Delay(1000);
+}
 
 
 ## Output  :
- 
- 
+ LED ON IMAGE
+ ![WhatsApp Image 2024-02-21 at 9 54 31 AM](https://github.com/vasanthkumarch/EXPERIMENT--02-INTERFACEING-A-DIGITAL-INPUT-TO-IOT-DEVELOPMENT-BOARD-/assets/151625159/93a6483c-9589-41c4-b101-8cb094950c77)
+
+ LED OFF IMAGE
+ ![WhatsApp Image 2024-02-21 at 9 54 31 AM](https://github.com/vasanthkumarch/EXPERIMENT--02-INTERFACEING-A-DIGITAL-INPUT-TO-IOT-DEVELOPMENT-BOARD-/assets/151625159/61e06e30-d186-4636-9f03-d3b370e35c54)
+
  
  
 ## Result :
